@@ -1,9 +1,8 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+import path from 'path';
+import http from 'http';
+import express from 'express';
+import bodyParser from 'body-parser';
+import api from './api';
 require("babel-core/register");
 
 
