@@ -1,6 +1,6 @@
-'use strict';
+class Point78
+ extends Point {
 
-class Point1 extends Point {
   constructor(x, y, color) {
     super(x, y);
     this.color = color;
